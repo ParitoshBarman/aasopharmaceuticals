@@ -12,7 +12,7 @@
 {% block body %}
 
     <!-- hero-about-area start -->
-    <div class="hero-about-area" style="background-image: url(https://medics.themechampion.com/html/pharmacy/assets/img/banner/inner-banner-1.png);">
+    <div class="hero-about-area" style="background-image: url({% static 'img/inner-banner-1.png' %});">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="advace-thumb">
-                        <img src="https://medics.themechampion.com/html/pharmacy/assets/img/about/advan-img.png" alt="">
+                        <img src="{% static 'img/advan-img.png' %}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -57,7 +57,7 @@
                         <p>At AASO, we believe that a healthy smile is a reflection of a healthy life. Let us help you achieve the smile you've always wanted with our expert care and advanced technology. Thank you for choosing us as your trusted healthcare provider.</p>
                     </div>
                     <div class="advance-sixnesar">
-                        <img src="assets/img/about/sixnasar.png" alt="">
+                        <!-- <img src="assets/img/about/sixnasar.png" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
     <!-- Advance area End -->
 
     <!-- progress area Start -->
-    <div class="progressbar-area" style="background-image: url(https://medics.themechampion.com/html/pharmacy/assets/img/background/progress-bg.png);">
+    <div class="progressbar-area" style="background-image: url({% static 'img/progress-bg.png' %});">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
@@ -116,7 +116,7 @@
 
     <!-- Special area start -->
     <div class="special-area position-relative">
-        <img src="assets/img/sheap-1.png" alt="" class="sheap-1">
+        <img src="{% static 'img/sheap-1.png' %}" alt="" class="sheap-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -128,19 +128,19 @@
                         </div>
                         <div class="special-list">
                             <div class="special-inner special-left">
-                                <div class="special-inner"><i class="icofont-verification-check"></i>Patient experience
+                                <div class="special-inner"><i class="fa fa-check"></i>Patient experience
                                 </div>
-                                <div class="special-inner"><i class="icofont-verification-check"></i>Infection
+                                <div class="special-inner"><i class="fa fa-check"></i>Infection
                                     prevention</div>
-                                <div class="special-inner"><i class="icofont-verification-check"></i>Health check-up
+                                <div class="special-inner"><i class="fa fa-check"></i>Health check-up
                                 </div>
                             </div>
                             <div class="special-inner special-right">
-                                <div class="special-inner"><i class="icofont-verification-check"></i>High-Risk
+                                <div class="special-inner"><i class="fa fa-check"></i>High-Risk
                                     Procedures</div>
-                                <div class="special-inner"><i class="icofont-verification-check"></i>Emergency Operation
+                                <div class="special-inner"><i class="fa fa-check"></i>Emergency Operation
                                 </div>
-                                <div class="special-inner"><i class="icofont-verification-check"></i>Standards of
+                                <div class="special-inner"><i class="fa fa-check"></i>Standards of
                                     Treatment</div>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                             <a href="#" class="team-1">Book Appointment Now</a>
                         </div>
                         <div class="specia-logo">
-                            <img src="assets/img/about/call-logo.png" alt="">
+                            <img src="{% static 'img/call-logo.png' %}" alt="call-logo">
                         </div>
                     </div>
                 </div>
@@ -188,7 +188,7 @@
     </div>
     <!-- Special area End -->
     <!-- doctors areas start -->
-    <div class="doctor-area" style="background-image: url(https://medics.themechampion.com/html/pharmacy/assets/img/background/expert-bg.png);">
+    <div class="doctor-area" style="background-image: url({% static 'img/expert-bg.png' %});">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -225,11 +225,11 @@
                                                 <input class="form-control" placeholder="Email*" type="email" name="femail" id="femail">
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-12"> 
-                                                <input placeholder="Select your Date" type="text" name="checkIn" id="datepicker" value="" class="calendar" autocomplete="off"/><i class="icofont-ui-calendar"></i>
+                                                <input placeholder="Select your Date" type="text" name="checkIn" id="datepicker" value="" class="calendar" autocomplete="off"/><i class="fa fa-ui-calendar"></i>
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
                                                 <input class="form-control" type="time" name="ftime" id="ftime">
-                                                <i class="icofont-clock-time"></i>
+                                                <i class="fa fa-clock-time"></i>
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
                                                 <textarea class="form-control" name="fmessage" id="fmessage" placeholder="Message*"></textarea>
@@ -261,10 +261,10 @@
                             <img src="https://medics.themechampion.com/html/pharmacy/assets/img/doctors/d-1.png" class="img-responsive" alt="img">
                             <div class="pro-text">
                                 <ul>
-                                    <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                                    <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                                    <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                                    <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -278,10 +278,10 @@
                             <img src="https://medics.themechampion.com/html/pharmacy/assets/img/doctors/d-2.png" class="img-responsive" alt="img">
                             <div class="pro-text">
                                 <ul>
-                                    <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                                    <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                                    <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                                    <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -295,10 +295,10 @@
                             <img src="https://medics.themechampion.com/html/pharmacy/assets/img/doctors/d-3.png" class="img-responsive" alt="img">
                             <div class="pro-text">
                                 <ul>
-                                    <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                                    <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                                    <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                                    <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -312,10 +312,10 @@
                             <img src="https://medics.themechampion.com/html/pharmacy/assets/img/doctors/d-3.png" class="img-responsive" alt="img">
                             <div class="pro-text">
                                 <ul>
-                                    <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                                    <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                                    <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                                    <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -329,10 +329,10 @@
                             <img src="https://medics.themechampion.com/html/pharmacy/assets/img/doctors/d-3.png" class="img-responsive" alt="img">
                             <div class="pro-text">
                                 <ul>
-                                    <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                                    <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                                    <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                                    <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -346,10 +346,10 @@
                             <img src="https://medics.themechampion.com/html/pharmacy/assets/img/doctors/d-3.png" class="img-responsive" alt="img">
                             <div class="pro-text">
                                 <ul>
-                                    <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                                    <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                                    <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                                    <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>

@@ -12,8 +12,8 @@
 {% block body %}
 
     <!--hero-area-start-->
-    <div class="hero-area position-relative" style="background: url(https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/sheap.png) no-repeat left;">
-        <img src="https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/hero-img.png" alt="" class="hero-img">
+    <div class="hero-area position-relative" style="background: url({% static 'img/sheap.png' %}) no-repeat left;">
+        <img src="{% static 'img/hero-img.png' %}" alt="" class="hero-img">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -30,13 +30,13 @@
     <!--hero-area-end-->
     <!--    product-area-start-->
     <div class="product-area">
-        <img src="https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/round-sheap.png" alt="" class="round-sheap">
+        <img src="{% static 'img/round-sheap.png' %}" alt="" class="round-sheap">
         <div class="container">
             <div class="row pb-120">
                 <div class="col-lg-4 col-md-5">
                     <div class="single-product">
                         <!-- <img src="{% static 'img/IMG_20240727_143529.png' %}" alt=""> -->
-                        <img src="https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/p1.png" alt="">
+                        <img src="{% static 'img/p1.png' %}" alt="">
                         <h3>Save 50% <br>
                             On Pain Killer</h3>
                         <p>99.9% Pain Free<br>
@@ -45,8 +45,8 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-7">
-                    <div class="single-product" style="background-image: url(https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/p2-bg.png)">
-                        <img class="single-img-2" src="https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/p2.png" alt="">
+                    <div class="single-product" style="background-image: url({% static 'img/p2-bg.png' %})">
+                        <img class="single-img-2" src="{% static 'img/p2.png' %}" alt="">
                         <h3>Surgical Solutions <br>Medical Instruments </h3>
                         <h4>Save Upto 15%</h4>
                         <a href="#" class="theme-btn">Buy Now</a>
@@ -66,32 +66,32 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="qiality-pp">
-                        <!-- <img src="https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/pluse-sheap.png" alt="" class="pluse-sheap"> -->
+                        <!-- <img src="{% static 'img/pluse-sheap.png' %}" alt="" class="pluse-sheap"> -->
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-quality">
-                                    <img src="https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/q1.png" alt="">
+                                    <img src="{% static 'img/q1.png' %}" alt="">
                                     <h4>Online Pharmacy</h4>
                                     <p>Quality Medications Delivered to Your Door.</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-quality qb2">
-                                    <img src="https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/q2.png" alt="">
+                                    <img src="{% static 'img/q2.png' %}" alt="">
                                     <h4>Medicine Supply</h4>
                                     <p>Reliable and timely delivery of essential medications.</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-quality qb3">
-                                    <img src="https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/q3.png" alt="">
+                                    <img src="{% static 'img/q3.png' %}" alt="">
                                     <h4>Essential Medical Supplies</h4>
                                     <p>Stay prepared with a comprehensive range of essential medical supplies.</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-quality qb4">
-                                    <img src="https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/q4.png" alt="">
+                                    <img src="{% static 'img/q4.png' %}" alt="">
 								<h4>Medical Equipment</h4>
                                     <p>Enhance patient care with advanced medical equipment.</p>
                                 </div>
@@ -911,7 +911,7 @@
     <!--    featured-area-end-->
 
     <!--    baner-area-start-->
-    <div class="baner-area" style="background: url(https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/hany-bg.png) no-repeat;">
+    <div class="baner-area" style="background: url({% static 'img/hany-bg.png' %}) no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-4">
@@ -933,7 +933,7 @@
     <div class="view-area">
 	
         <div class="container">
-		<img src="https://medics.themechampion.com/html/pharmacy/assets/img/homepage2/round-sheap.png" class="home-slider-circle" alt="circle-shape">
+		<img src="{% static 'img/round-sheap.png' %}" class="home-slider-circle" alt="circle-shape">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title view-title">
