@@ -7739,6 +7739,7 @@ textarea {
 }
 
 .fecure-containt h4 {
+	display: none;
 	font-size: 24px;
 	color: #02B9B1;
 	font-weight: 600;
