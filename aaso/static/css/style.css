@@ -7122,7 +7122,7 @@ span.dropdown-iconform i {
 }
 
 .zoom-containt-bottom a, .fecure-containt a, .fetured-btn a {
-    color: #fff;
+	color: #fff;
     background: #FFAF2A;
     padding: 8px 30px;
     border-radius: 50px;
@@ -7130,6 +7130,7 @@ span.dropdown-iconform i {
     margin-top: 25px;
     font-weight: 600;
     font-size: 16px;
+	display: none;
 }
 
 .review-area {
