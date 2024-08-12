@@ -16,6 +16,12 @@ def products(request):
     return render(request,'products.html')
 def alldrugs(request):
     return render(request,'alldrugs.html')
+def privacypolicy(request):
+    return render(request,'privacypolicy.html')
+def termsconditions(request):
+    return render(request,'termsconditions.html')
+def faq(request):
+    return render(request,'faq.html')
 
 def testfunc(request):
     # return HttpResponse('<h1>Welcome to AASO</h1>')

@@ -19,6 +19,9 @@ urlpatterns = [
     path("services", views.services, name='services'),
     path("products", views.products, name='products'),
     path("alldrugs", views.alldrugs, name='alldrugs'),
+    path("privacypolicy", views.privacypolicy, name='privacypolicy'),
+    path("termsconditions", views.termsconditions, name='termsconditions'),
+    path("faq", views.faq, name='faq'),
 
     path("test", views.testfunc, name='testfunc'),
     path("base", views.base, name='base'),
